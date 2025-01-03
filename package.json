@@ -1,0 +1,24 @@
+{
+  "name": "node-yaml-loader",
+  "description": "A YAML loader for Node.js that allows you to import yaml files directly.",
+  "version": "0.1.0",
+  "license": "MIT",
+  "author": "Leonardo Raele <leonardoraele@gmail.com>",
+  "engines": {
+    "node": ">=23.0.0"
+  },
+  "type": "module",
+  "exports": "./lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "yaml",
+    "yml",
+    "loader"
+  ],
+  "dependencies": {
+    "yaml": "^2.7.0"
+  }
+}
